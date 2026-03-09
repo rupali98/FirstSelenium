@@ -21,7 +21,7 @@ public class Ex01_MultipleTestExecution_Way02
   {
 	  driver.get(url);
 	  Thread.sleep(1000);
-	  WebElement aboutUsLink = driver.findElement(By.linkText("AboutUs"));
+	  WebElement aboutUsLink = driver.findElement(By.linkText("AboutUss"));
 	  aboutUsLink.click();
 	  System.out.println(driver.getTitle());
 	  Thread.sleep(1000);
